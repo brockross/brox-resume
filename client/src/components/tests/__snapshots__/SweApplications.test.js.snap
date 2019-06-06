@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SweApplications should render correctly 1`] = `
+<div>
+  <h3>
+    Software Engineering Applications
+  </h3>
+  <ul>
+    <li>
+      Bandland
+    </li>
+    <li>
+      Cinetix
+    </li>
+    <li>
+      Jerry the Giraffe
+    </li>
+  </ul>
+</div>
+`;

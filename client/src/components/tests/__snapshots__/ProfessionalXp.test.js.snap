@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfessionalXp should render correctly 1`] = `
+<div>
+  <h3>
+    Professional Experience
+  </h3>
+  <ul>
+    <li>
+      Quapp.co
+    </li>
+    <li>
+      Brave Living
+    </li>
+  </ul>
+</div>
+`;

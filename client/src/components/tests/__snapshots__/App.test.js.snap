@@ -2,6 +2,11 @@
 
 exports[`App should render correctly 1`] = `
 <div>
-  testing woot woot
+  <Header />
+  <SweApplications />
+  <ProfessionalXp />
+  <Personal />
+  <Skills />
+  <UsedInApp />
 </div>
 `;

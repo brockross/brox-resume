@@ -47,4 +47,5 @@ const jerry = {
   ]
 }
 
+console.log(JSON.stringify([bandland, cinetix, jerry]));
 module.exports = JSON.stringify([bandland, cinetix, jerry]);

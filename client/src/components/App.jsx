@@ -18,6 +18,20 @@ class App extends React.Component {
     }
   }
 
+  getSweApps() {
+    fetch('/sweApps')
+    .then(response => response.json())
+    .then(data => {
+      this.setState({
+        sweApps: data
+      })
+    })
+  }
+
+  componentDidMount() {
+    this.getSweApps();
+  }
+
   render(){
     return(
       <div>

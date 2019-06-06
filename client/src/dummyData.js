@@ -14,3 +14,5 @@ const sampleApplication = {
     "Utilized agile workflow to complete individual and team deliverables, meeting or exceeding deadlines and quality standards"
   ]
 }
+
+module.exports = JSON.stringify(sampleApplication);

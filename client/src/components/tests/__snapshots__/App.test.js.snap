@@ -3,7 +3,58 @@
 exports[`App should render correctly 1`] = `
 <div>
   <Header />
-  <SweApplications />
+  <SweApplications
+    sweApps={
+      Array [
+        Object {
+          "bullets": Array [
+            "Scaled a legacy database and Express API to handle web scale traffic (~10M database entries; 100 RPS)",
+            "Improved request latency by 100% by load balancing with nginx",
+            "Optimized static asset compression and delivery, taking Google PageSpeed score from 6 to 100",
+            "Utilized agile workflow to complete individual and team deliverables, meeting or exceeding deadlines and quality standards",
+          ],
+          "description": "Legacy back-end codebase of app used for streaming albums, along with displaying album art, artist info, comments, and recommendations",
+          "jobTitle": "software engineer",
+          "name": "Bandland",
+          "techs": Array [
+            "PostgreSQL",
+            "Node",
+            "AWS",
+          ],
+        },
+        Object {
+          "bullets": Array [
+            "Designed and executed a React JS architecture with modularity & reusability as top priorities",
+            "Built proxy server in Node JS to facilitate a service-oriented architecture; structured an API and service and deployed it to Amazon EBS",
+            "Coordinated with a team of fellow engineers to ensure smooth service integration and met deadlines using agile workflow & frequent github PRs",
+          ],
+          "description": "Single-page app to display local showtimes, rating and synopsis info, associated videos, and cast/crew for a given movie",
+          "jobTitle": "software engineer",
+          "name": "Cinetix",
+          "techs": Array [
+            "React",
+            "Node",
+            "MongoDB",
+          ],
+        },
+        Object {
+          "bullets": Array [
+            "Implemented React Hooks for all state management",
+            "Conceived and executed a modular ‘scene’ building system to facilitate cleanly organized decision trees",
+            "Deployed via Express server on Amazon EC2 instance",
+          ],
+          "description": "Children’s book adapted to a ‘choose your own adventure’ app, featuring branching stories, multiple endings, and an inventory system",
+          "jobTitle": "software engineer",
+          "name": "Jerry the Giraffe",
+          "techs": Array [
+            "React",
+            "Node",
+            "AWS",
+          ],
+        },
+      ]
+    }
+  />
   <ProfessionalXp />
   <Personal />
   <Skills />

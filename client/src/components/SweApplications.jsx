@@ -7,14 +7,12 @@ const SweApplications = (props) => {
       {props.sweApps.map(item => {
         return (
           <div>
-          <h4>{item.name}</h4>
-          <h5>{item.title}</h5>
-          <h5>{item.jobTitle}</h5>
-          <h5>{item.techs.join(' | ')}</h5>
-          <p>{item.description}</p>
+          <h4>{item.name} - {item.jobTitle}</h4>
+          <p>{item.techs.join(' | ')}</p>
+          <p><em>{item.description}</em></p>
           <ul>
             {item.bullets.map(bullet => {
-              <li>{bullet}</li>
+              return <li>{bullet}</li>
             })}
           </ul>
           </div>

@@ -14,7 +14,7 @@ class App extends React.Component {
     super();
 
     this.state = {
-      sweApp1: sampleData
+      sweApps: JSON.parse(sampleData)
     }
   }
 
@@ -22,7 +22,7 @@ class App extends React.Component {
     return(
       <div>
         <Header/>
-        <SweApplications sweApp1={this.state.sweApp1}/>
+        <SweApplications sweApps={this.state.sweApps}/>
         <ProfessionalXp/>
         <Personal/>
         <Skills/>

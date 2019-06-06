@@ -5,16 +5,86 @@ exports[`SweApplications should render correctly 1`] = `
   <h3>
     Software Engineering Applications
   </h3>
-  <ul>
-    <li>
+  <div>
+    <h4>
       Bandland
-    </li>
-    <li>
+       - 
+      software engineer
+    </h4>
+    <p>
+      PostgreSQL | Node | AWS
+    </p>
+    <p>
+      <em>
+        Legacy back-end codebase of app used for streaming albums, along with displaying album art, artist info, comments, and recommendations
+      </em>
+    </p>
+    <ul>
+      <li>
+        Scaled a legacy database and Express API to handle web scale traffic (~10M database entries; 100 RPS)
+      </li>
+      <li>
+        Improved request latency by 100% by load balancing with nginx
+      </li>
+      <li>
+        Optimized static asset compression and delivery, taking Google PageSpeed score from 6 to 100
+      </li>
+      <li>
+        Utilized agile workflow to complete individual and team deliverables, meeting or exceeding deadlines and quality standards
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h4>
       Cinetix
-    </li>
-    <li>
+       - 
+      software engineer
+    </h4>
+    <p>
+      React | Node | MongoDB
+    </p>
+    <p>
+      <em>
+        Single-page app to display local showtimes, rating and synopsis info, associated videos, and cast/crew for a given movie
+      </em>
+    </p>
+    <ul>
+      <li>
+        Designed and executed a React JS architecture with modularity & reusability as top priorities
+      </li>
+      <li>
+        Built proxy server in Node JS to facilitate a service-oriented architecture; structured an API and service and deployed it to Amazon EBS
+      </li>
+      <li>
+        Coordinated with a team of fellow engineers to ensure smooth service integration and met deadlines using agile workflow & frequent github PRs
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h4>
       Jerry the Giraffe
-    </li>
-  </ul>
+       - 
+      software engineer
+    </h4>
+    <p>
+      React | Node | AWS
+    </p>
+    <p>
+      <em>
+        Children’s book adapted to a ‘choose your own adventure’ app, featuring branching stories, multiple endings, and an inventory system
+      </em>
+    </p>
+    <ul>
+      <li>
+        Implemented React Hooks for all state management
+      </li>
+      <li>
+        Conceived and executed a modular ‘scene’ building system to facilitate cleanly organized decision trees
+      </li>
+      <li>
+        Deployed via Express server on Amazon EC2 instance
+      </li>
+    </ul>
+  </div>
 </div>
 `;

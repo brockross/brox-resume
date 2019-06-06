@@ -1,5 +1,12 @@
 import React from 'react';
 
+import Header from './Header.jsx';
+import SweApplications from './SweApplications.jsx';
+import ProfessionalXp from './ProfessionalXp.jsx';
+import Personal from './Personal.jsx';
+import Skills from './Skills.jsx';
+import UsedInApp from './UsedInApp.jsx';
+
 class App extends React.Component {
   constructor() {
     super();
@@ -7,7 +14,14 @@ class App extends React.Component {
 
   render(){
     return(
-      <div>testing woot woot</div>
+      <div>
+        <Header/>
+        <SweApplications/>
+        <ProfessionalXp/>
+        <Personal/>
+        <Skills/>
+        <UsedInApp/>
+      </div>
     )
   }
 }

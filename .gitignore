@@ -62,3 +62,7 @@ typings/
 
 # webpack build output
 /client/dist/bundle.js
+
+# misc files
+/images-in-process
+
